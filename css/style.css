@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.hollow-circle-header {
+  position: absolute;
+  width: 60.99px;
+  height: 60.99px;
+  left: 40%;
+  top: -19.41px;
+}
+.btn1 {
+  color: black;
+  border: black 1px solid;
+  border-radius: 25px;
+  width: 70%;
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  background-color: white;
+}
+.logo {
+  width: 60%;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.btn-sec {
+  font-weight: 500;
+  margin: 0px !important;
+  font-size: 10px !important;
+  width: 115px;
+  padding: 10px;
+  background-color: #59638b !important;
+  color: #a2a7be !important;
+  border-color: #59638b !important;
+  border-radius: 25px;
+}
+.white {
+  color: white;
+}
+.auth-btn {
+  height: 3rem;
+}
+.nav-btn {
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 50px;
+  padding: 5px 30px;
+  background-color: white;
+  color: #04a4a6 !important;
+}
+.nav-btn:hover {
+  background-color: #04a4a6 !important ;
+  color: white !important;
+}
+
+.hollow-circle-moto-section {
+  z-index: 0;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  left: -65px;
+  top: -60px;
+}
+.btn-color {
+  color: #04a4a6 !important;
+  border-color: #04a4a6 !important;
+}
+.font-1rem {
+  font-size: 1rem !important;
+}
+.border-3 {
+  border-color: #222f65;
+  background-color: #222f65;
+  border-radius: 10px;
+}
+.bg-2 {
+  background-image: url("../images/middle_section_bg_image.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.our-motto {
+  z-index: 5;
+  padding: 25px;
+}
+.carbon-settings {
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  left: -207px;
+  top: 50rem;
+  transform: rotate(-13.81deg);
+}
+.h1-sucessstory {
+  margin-left: 3rem;
+}
+.vector-icon-test {
+  width: 3rem;
+  height: 3rem;
+}
+.border-services {
+  border-bottom: 2px solid black;
+}
+.border-services1 {
+  border-top: 2px solid black;
+}
+.border-btn-services {
+  border-width: 2px !important;
+}
+.w-15 {
+  width: 15%;
+}
+.security-icon {
+  margin-left: -1rem;
+}
+.w-30 {
+  width: 30%;
+}
+.review-dp {
+  width: 10rem;
+}
+.relationships {
+}
+.ml-100 {
+  margin-left: 100px;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.w-12rem {
+  width: 18rem !important;
+}
+.border-radius-12px {
+  border-radius: 12px !important;
+}
+.container a {
+  color: black !important;
+}
+.pro-card {
+  background-color: #04a4a6;
+}
+@media screen and (max-width: 790px) {
+  .carbon-settings {
+    display: none;
+  }
+  .bg-2 {
+    background-image: none;
+  }
+}
