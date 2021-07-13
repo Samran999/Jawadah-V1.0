@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.hollow-circle-header {
+  position: absolute;
+  width: 60.99px;
+  height: 60.99px;
+  left: 40%;
+  top: -19.41px;
+}
+.logo {
+  width: 60%;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.white {
+  color: white;
+}
+.auth-btn {
+  height: 3rem;
+}
+.nav-btn {
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 50px;
+  padding: 5px 30px;
+  background-color: white;
+  color: #04a4a6 !important;
+}
+.nav-btn:hover {
+  background-color: #04a4a6 !important ;
+  color: white !important;
+}
+
+.bg {
+  background: #f6f2fa;
+}
+.input-text {
+  padding-top: 0.5rem !important;
+}
+.input-fields {
+  background: #505f9880;
+  padding: 0.5rem 1rem;
+  border-radius: 35px;
+}
+.heading {
+}
+.heading p {
+  color: #64cce3;
+  font-size: 15px;
+}
+.heading h1 {
+  color: #505f98;
+}
+.input-fields input {
+  background: none;
+  border: none;
+  padding-left: 1rem;
+  outline: none;
+}
+.input-fields ::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+.h-right {
+}
+.register-confirm {
+  color: #64cce3;
+  font-size: 12px;
+  padding-top: 1rem;
+  font-weight: 400;
+}
+.btn-register {
+  background-color: #505f98;
+  color: #fff;
+  padding: 0.5rem 4rem !important;
+  border-radius: 25px;
+  border: none;
+}
+.container a {
+  color: black !important;
+}
+.login-p {
+  padding-top: 1rem;
+  font-size: 12px;
+}
+.login-p a {
+  color: #505f98 !important;
+  font-weight: 600;
+}
+@media screen and (min-width: 765px) {
+  .padding-right {
+    padding-right: 7rem;
+  }
+  .width-50 {
+    width: 50rem;
+  }
+  .padding-box {
+    padding: 3rem 7rem !important;
+  }
+  .padding {
+    padding: 5rem 5rem !important;
+  }
+  .hollow-circle {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    z-index: -1;
+  }
+  .green-hollow-circle {
+    position: absolute;
+    top: 50%;
+  }
+  .tiny-filled {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .hollow-circle {
+    display: none;
+  }
+}
+@media screen and (max-width: 837px) {
+  .tiny-filled {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  .green-hollow-circle {
+    display: none;
+  }
+}
