@@ -71,12 +71,19 @@
   border: none;
   padding-left: 1rem;
   outline: none;
+  color: rgba(255, 255, 255, 0.5);
 }
 .input-fields ::placeholder {
   color: rgba(255, 255, 255, 0.5);
   border: none;
 }
-
+.text-size-15 {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+.text-size-20 {
+  font-size: 20px !important;
+}
 .register-confirm {
   color: #64cce3;
   font-size: 12px;
@@ -110,5 +117,40 @@
   }
   .padding {
     padding: 5rem 7rem !important;
+  }
+}
+@media screen and (min-width: 765px) {
+  .hollow-circle {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    z-index: -1;
+  }
+  .green-hollow-circle {
+    position: absolute;
+    top: 50%;
+  }
+  .tiny-filled {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .hollow-circle {
+    display: none;
+  }
+  .width-10 {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 837px) {
+  .tiny-filled {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  .green-hollow-circle {
+    display: none;
   }
 }

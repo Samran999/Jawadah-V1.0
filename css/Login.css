@@ -55,6 +55,9 @@
   padding: 0.5rem 1rem;
   border-radius: 35px;
 }
+.border-radius-12 {
+  border-radius: 12px;
+}
 .heading {
 }
 .heading p {
@@ -69,6 +72,7 @@
   border: none;
   padding-left: 1rem;
   outline: none;
+  color: rgba(255, 255, 255, 0.5);
 }
 .input-fields ::placeholder {
   color: rgba(255, 255, 255, 0.5);
@@ -95,6 +99,13 @@
 .login-p {
   padding-top: 1rem;
   font-size: 12px;
+}
+.text-size-20 {
+  font-size: 20px !important;
+}
+.text-size-15 {
+  font-size: 10px !important;
+  font-weight: 600;
 }
 .login-p a {
   color: #505f98 !important;
