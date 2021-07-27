@@ -66,9 +66,14 @@ th {
   width: 115px;
   padding: 10px;
   background-color: #59638b !important;
-  color: #a2a7be !important;
+  color: #fff !important;
   border-color: #59638b !important;
   border-radius: 25px;
+}
+.relationships h4 {
+  font-weight: 600 !important;
+  align-items: center !important;
+  text-align: left !important;
 }
 .white {
   color: white;
@@ -225,6 +230,11 @@ th {
 .card-padding {
   padding-top: 15px !important;
 }
+.x-scroller {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
 .btn-5 button {
   border: 1px solid #04a4a6;
   background: none;
@@ -247,8 +257,38 @@ th {
 .ul-color {
   color: #222f65;
 }
+.img-1 {
+  position: absolute;
+  left: -15%;
+}
+.img-2 {
+  position: absolute;
+  top: 10%;
+  left: -10%;
+}
+.img-3 {
+  position: absolute;
+  top: 50%;
+  left: -30%;
+}
+.img-4 {
+  position: absolute;
+  top: -5%;
+  right: -50%;
+}
+.img-5 {
+  position: absolute;
+  top: 50%;
+  right: -30%;
+}
+.img-6 {
+  position: absolute;
+  top: 10%;
+  right: -10%;
+}
 .h1-sucessstory {
   margin-left: 3rem;
+  font-weight: 700;
 }
 .vector-icon-test {
   width: 3rem;
@@ -275,8 +315,7 @@ th {
 .review-dp {
   width: 10rem;
 }
-.relationships {
-}
+
 .ml-100 {
   margin-left: 100px;
 }
@@ -305,9 +344,22 @@ th {
   .bg-2 {
     background-image: none;
   }
-}
-@media screen and (min-width: 1000px) {
-  .plan-padding-left {
-    padding-left: 7rem;
+  .img-1 {
+    display: none;
+  }
+  .img-2 {
+    display: none;
+  }
+  .img-3 {
+    display: none;
+  }
+  .img-4 {
+    display: none;
+  }
+  .img-5 {
+    display: none;
+  }
+  .img-6 {
+    display: none;
   }
 }
